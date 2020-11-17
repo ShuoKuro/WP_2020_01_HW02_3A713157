@@ -52,6 +52,7 @@
     <Compile Include="frmGame.Designer.cs">
       <DependentUpon>frmGame.cs</DependentUpon>
     </Compile>
+    <Compile Include="Poke.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmGame.resx">
@@ -76,12 +77,68 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="设计稿.docx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="res\TEST.png" />
+    <Content Include="res\000.png" />
+    <Content Include="res\10C.png" />
+    <Content Include="res\10D.png" />
+    <Content Include="res\10H.png" />
+    <Content Include="res\10S.png" />
+    <Content Include="res\2C.png" />
+    <Content Include="res\2D.png" />
+    <Content Include="res\2H.png" />
+    <Content Include="res\2S.png" />
+    <Content Include="res\3C.png" />
+    <Content Include="res\3D.png" />
+    <Content Include="res\3H.png" />
+    <Content Include="res\3S.png" />
+    <Content Include="res\4C.png" />
+    <Content Include="res\4D.png" />
+    <Content Include="res\4H.png" />
+    <Content Include="res\4S.png" />
+    <Content Include="res\5C.png" />
+    <Content Include="res\5D.png" />
+    <Content Include="res\5H.png" />
+    <Content Include="res\5S.png" />
+    <Content Include="res\6C.png" />
+    <Content Include="res\6D.png" />
+    <Content Include="res\6H.png" />
+    <Content Include="res\6S.png" />
+    <Content Include="res\7C.png" />
+    <Content Include="res\7D.png" />
+    <Content Include="res\7H.png" />
+    <Content Include="res\7S.png" />
+    <Content Include="res\8C.png" />
+    <Content Include="res\8D.png" />
+    <Content Include="res\8H.png" />
+    <Content Include="res\8S.png" />
+    <Content Include="res\9C.png" />
+    <Content Include="res\9D.png" />
+    <Content Include="res\9H.png" />
+    <Content Include="res\9S.png" />
+    <Content Include="res\AC.png" />
+    <Content Include="res\AD.png" />
+    <Content Include="res\AH.png" />
+    <Content Include="res\AS.png" />
+    <Content Include="res\JC.png" />
+    <Content Include="res\JD.png" />
+    <Content Include="res\JH.png" />
+    <Content Include="res\JS.png" />
+    <Content Include="res\KC.png" />
+    <Content Include="res\KD.png" />
+    <Content Include="res\KH.png" />
+    <Content Include="res\KS.png" />
+    <Content Include="res\QC.png" />
+    <Content Include="res\QD.png" />
+    <Content Include="res\QH.png" />
+    <Content Include="res\QS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
